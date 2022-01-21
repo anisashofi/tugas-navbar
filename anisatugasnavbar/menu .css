@@ -1,0 +1,102 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://cf.shopee.com.my/file/89dc7c536d8af5c732a2f32973f784b9);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(243, 233, 233);
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-1{
+    background-image: url('http://1.bp.blogspot.com/-8akQWOuvlxQ/Towt2tlXZvI/AAAAAAAAADw/RwF01aZcbAQ/s1600/Coffee+Latte.jpg')
+}
+
+.food-2{
+    background-image: url('https://i.ytimg.com/vi/V869iisagMI/maxresdefault.jpg')
+}
+
+.food-3{
+    background-image: url('https://cdn-cas.orami.co.id/parenting/images/makan-kentang-goreng-setelah-ber.original.jpegquality-90.jpg')
+}
+
+.food-4{
+    background-image: url('http://kampungwirausaha.com/wp-content/uploads/yogurt-buah-rasa-strawberry.jpg')
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: white;
+    color: rgba(255, 0, 0, 0.938);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;   
+}
+
+.card:hover{
+    background-color: rgb(208, 218, 211);
+    color: ivory;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:white;
+}
